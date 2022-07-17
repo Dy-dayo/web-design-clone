@@ -1,0 +1,134 @@
+main{
+    margin: 0%;
+}
+
+header{
+    width: 100vw;
+    height: 350px;
+    background-color: rgb(237, 82, 82);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 2500;
+}
+h2{
+    height: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header-img{
+    width: 100vw;
+    height: 100px;
+}
+#white-area{
+    background-color: white;
+}
+#free{
+    width: 100vw;
+    height: 300px;
+    /* padding: 20px 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text-free{
+    width: 40%;
+    margin-right:100px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: 200; */
+}
+button{
+    width: 200px;
+    height:4em;
+    font-weight: 600;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10px;
+}
+#ratings{
+    background-color: rgb(237, 82, 82);
+    height: 350px;
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+h5{
+    font-size: xx-large; font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h6{
+    font-size: large; font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-field{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cleaner{
+    margin: 35px 0px;
+    width: 30%;
+    height: 300px;
+    float:right;
+}
+#about-staff{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#staff-text{
+    text-align: center;
+}
+#all-btns{
+    width: 100vw;
+    height: 300px;
+    background-color: rgb(237, 82, 82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#last-area{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lastarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+#client-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 15px;
+
+}
+#client-com{
+    background-color:rgb(237, 82, 82) ;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-btn{
+    background-color: rgb(255, 213, 3);
+    border:none;
+}
+.blue-btn{
+    border: 1px double blue;
+    color: blue;
+}
+.black-btn{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
